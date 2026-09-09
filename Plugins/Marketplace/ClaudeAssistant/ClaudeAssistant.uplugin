@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 12,
+	"VersionName": "2.0.0",
+	"FriendlyName": "Claude Assistant",
+	"Description": "Agentic AI assistant for Unreal Engine 5 powered by Claude. 80 editor tools: it creates and edits Blueprints (nodes, wiring, components, functions), Widgets, Behavior Trees, DataTables, Materials and more from plain English. Use your Claude Pro/Max subscription via the Claude Code CLI, or an Anthropic API key.",
+	"Category": "Editor",
+	"CreatedBy": "PixelsDesign - Luca Tocco",
+	"CreatedByURL": "https://pixelsdesign.it",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ClaudeAssistantCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "ClaudeAssistantEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		}
+	]
+}
