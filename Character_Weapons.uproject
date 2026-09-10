@@ -12,6 +12,13 @@
 			]
 		},
 		{
+<<<<<<< Updated upstream
+=======
+			"Name": "LudusAI",
+			"Enabled": false
+		},
+		{
+>>>>>>> Stashed changes
 			"Name": "ModelContextProtocol",
 			"Enabled": true
 		},
