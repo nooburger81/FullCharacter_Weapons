@@ -12,10 +12,6 @@
 			]
 		},
 		{
-			"Name": "LudusAI",
-			"Enabled": true
-		},
-		{
 			"Name": "ModelContextProtocol",
 			"Enabled": true
 		},
